@@ -1,0 +1,39 @@
+.alerta{
+    width: calc(35% + 30px);
+    padding: 5px 5px 5px 5px;
+    margin: 5px auto 20px auto;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 13.5pt;
+    font-family: Arial;
+}
+.alerta-sucesso{
+    background-color: rgba(10, 194, 10, 0.993);
+    border-color: rgba(84, 236, 84, 0.822);
+    color: white;
+}
+.alerta-falha{
+    background-color: rgba(194, 10, 10, 0.993);
+    border-color: rgba(236, 84, 84, 0.822);
+    color: white;
+}
+.alerta-aviso{
+    background-color: rgb(228, 228, 6);
+    border-color: rgba(238, 238, 43, 0.822);
+    color: rgb(255, 255, 255);
+}
+
+.material-icons.absolute{
+    position: relative;
+    padding-left: 5px;
+    top: 3.5px;
+}
+.material-icons.absolute:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 555px){
+    .alerta{
+        width: 75%;
+    }
+}
